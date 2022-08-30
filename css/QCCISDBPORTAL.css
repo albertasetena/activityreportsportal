@@ -1,0 +1,192 @@
+body
+{
+	background: url(../img/default-computer-training-institutes-6.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.wrap
+{
+	width: 1000px;
+	margin: auto;
+	background-color: red;
+	max-height: 1000px;
+}
+header 
+{
+	float: left;
+	width : 100%;
+	height: 100px;
+	margin-top: 0;
+	background-color: #663300; 
+	border-radius: 10px;
+}
+header #COCOBUD
+{
+	float: left; 
+	width :70%;
+}
+#imgco
+{
+	float: left;
+	width: 80px;
+	height: 70px; 
+	margin-top: 2px;
+	margin-left: 1px;
+}
+header h2
+{
+	font-size: 35px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: khaki;
+}
+header h3
+{
+	font-size: 30px;
+	margin-top: 0;
+	color: khaki;
+}
+header #Logbut
+{
+	float: right;
+	background: darkgreen;
+	font-size: 12px;
+	text-decoration: none;
+	height: 16px;
+	color: white;
+	width: 60px;
+	margin-right: 15px;
+	border-radius: 20px;
+	margin-top: 5px;
+	padding-top: 3px;
+	font-weight: bold;
+	text-align: center;
+}
+header #Logbut:hover
+{
+	background: #000066;
+	border: 2px solid khaki;
+	font-size: 10px;
+}
+.containerslider
+{
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	float: left;
+	margin-left: 190px;
+}
+.slider 
+{	
+	width: 550px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.slider figure div 
+{
+	float: left;
+	width: 20%;
+}
+.slider figure img
+{
+	width: 100%;
+	float: left;
+	border-radius: 10px;
+}
+.slider figure 
+{
+	float: left;
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: 20s slid infinite;
+	width: 500%;
+	border-radius: 10px;
+}
+@keyframes slid 
+{
+
+0% 
+{
+	left: 0%;
+}
+10% 
+{
+	left: 0%; 
+}
+12% 
+{
+	left: -100%;
+}
+22% 
+{
+	left: -100%;
+}
+24% 
+{
+	left: -200%;
+}
+34% 
+{
+	left: -200%;
+}
+36% 
+{
+	left: -300%;
+}
+46% 
+{
+	left: -300%;
+}
+48% 
+{
+	left: -400%;
+}
+58% 
+{
+	left: -400%;
+}
+60% 
+{
+	left: -300%;
+}
+62% 
+{
+	left: -300%;
+}
+72% 
+{
+	left: -200%;
+}
+74% 
+{
+	left: -200%;
+} 
+84% 
+{
+	left: -100%;
+}
+86% {
+	left: -100%;
+}
+96% 
+{
+	left: 0%;
+}
+}
+footer
+{
+	margin-top: 10px;
+	margin-left: 490px;
+	color: darkorange;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	float: left;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+}

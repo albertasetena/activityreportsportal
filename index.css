@@ -1,0 +1,186 @@
+
+
+body
+{
+	background: url(img/abstract.png) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-height: 2000%;
+}
+.wrap 
+{
+	width: 80%;
+	margin: auto;
+	height: 600px;
+}
+#log
+{
+	float: right;
+	background: darkgreen;
+	font-size: 10px;
+	text-decoration: none;
+	height: 15px;
+	color: white;
+	width: 60px;
+	margin-right: 15px;
+	border-radius: 20px;
+	margin-top: 2px;
+	padding-top: 3px;
+	font-weight: bold;
+	text-align: center;
+}
+#log:hover
+{
+	background: #000066;
+	border: 2px solid khaki;
+	font-size: 10px;
+}
+.header
+{
+	float: left;
+	width: 96%;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #000066;
+	margin-left: 18px;
+}
+
+.header h3
+{
+	float: left;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	width: 80%;
+	margin-left: 5px;
+}
+.header a
+{
+	
+	float: right;
+	background: green;
+	font-size: 12px;
+	text-decoration: none;
+	height: 20px;
+	color: white;
+	width: 80px;
+	margin-right: 15px;
+	border-radius: 20px;
+	padding-left: 8px;
+	margin-top: 2px;
+	padding-top: 3px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.header a:hover
+{
+	background: #000066;
+	border: 2px solid  khaki;
+}
+.searchco
+{
+	width: 90%;
+	height: 30px;
+	float: left;
+	margin-left: 90px;
+	margin-top: 5px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	padding-top: 3px;
+	position: relative;
+}
+#bugid
+{
+	margin-right: 50px;
+	border-radius: 15px;	
+	border: 2px solid gray;
+	padding-left: 10px;
+}
+#bugid2
+{
+	border-radius: 15px;
+	border: 2px solid gray;
+	padding-left: 10px;
+}
+#Findnow
+{
+	margin-left: 25px;
+	border-radius: 10px; 
+	border: 1px solid #000066;
+	font-weight: bold;
+}
+#Findnow:hover 
+{
+	background-color: #000066;
+	color: white;
+	border: 2px solid gray; 
+}
+#imgco
+{
+	float: left;
+	width: 80px;
+	height: 80px; 
+}
+#QCC h2
+{
+	float: left;
+	width: 80%;
+	margin-left: 2px;
+	font-family: cooper;
+}
+.container
+{
+	max-height: 2000%;
+	height: 600px;
+	width: 80%;
+	border: 1px solid gray;
+	background-attachment: fixed;
+	background: white;
+	margin-left: 100px;
+	float: left;
+	margin-top: 0; 
+	border-radius: 10px;
+	clear: both;
+	margin-bottom: 50px;
+}
+.frap
+{
+	margin-bottom: 0px;
+}
+table
+{
+	width: 90%;
+	max-height: 2000%;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 32px;
+	border-collapse: collapse;
+	margin-top: 0;
+	clear: both;
+}
+table th
+{
+	text-align: center;
+	font-size: 25px;
+	border: 1px solid black;
+	font-family: aller display;
+	margin-top: 0;
+}
+table td
+{
+	text-align: left;
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 20px;
+	height: 20px;
+}
+footer
+{
+	margin-top: 5px;
+	margin-left: 470px;
+	color: #0000FF;
+	margin-bottom: 20px;
+	float: left;
+	left: 0;
+	bottom: 0;
+}

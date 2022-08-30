@@ -1,0 +1,212 @@
+body
+{
+	background: url(../img/Security.png) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-height: 700px;
+	overflow: hidden;
+}
+
+.header
+{
+	float: left;
+	width: 100%;
+	height: 120px;
+	background: #000066;
+	margin-bottom: 10px;
+}
+#QCCISbug
+{
+	width: 550px;
+	height: 100px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	box-shadow: 4px solid black;
+}
+#Bugs
+{
+	float: right;
+	width: 100px;
+	border: 1.5px solid darkkhaki;
+	text-align: center;
+	padding-left: 0;
+}
+#Bugs:hover
+{
+	background-color: orange;
+	border-color: white;
+}
+.header a
+{
+	
+	float: right;
+	background: green;
+	font-size: 12px;
+	text-decoration: none;
+	height: 20px;
+	color: white;
+	width: 80px;
+	margin-right: 15px;
+	border-radius: 20px;
+	padding-left: 8px;
+	margin-top: 50px;
+	padding-top: 3px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.header a:hover
+{
+	background: darkgreen;
+	border: 1px solid white;
+	color: white;
+}
+.frap
+{
+	margin: auto;
+	width: 500px;
+	height: 450px;
+	clear: both;
+	border: 2px solid black;
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+#sublebel:after
+{
+	content: " * ";
+	color: red;
+}
+#subcon,#Descon,#stacon, #Dacon,#Description,#Clacon
+{
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 4px;
+	border-color: black;
+}
+#sublabel,#stalabel,#dabel,#Decon
+{
+	float: left;
+	font-size: 20px;
+
+}
+#sublabel:after
+{
+	content: " * ";
+	color: red;
+}
+
+#Subject input
+{
+	margin-left: 5px;
+	width: 350px;
+	font-size: 20px;
+	height: 20px;
+}
+textarea
+{
+	height: 150px;
+	width: 450px;
+	max-height: 400px;
+	margin-left: 15px;
+}
+#stalabel:after
+{
+	content: " * ";
+	color: red;
+}
+#stacon input
+{
+	margin-left: 5px;
+	width: 400px;
+	font-size: 20px;
+	height: 20px;
+}
+
+#dabel:after
+{
+	content: " * ";
+	color: red;
+}
+#Dacon 
+{
+	float: left;
+	width: 500px;
+	height: 40px;
+}
+#date
+{
+	margin-left: 10px;
+}
+#Description:after
+{
+	content: " * ";
+	color: red;
+}
+
+#newcon
+{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#new
+{
+	font-family: Bernard MT;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #0000FF;
+	margin-left: 5px;
+	font-size: 24px;
+	float: left;
+	width: 300px;
+}
+#stala
+{
+	margin-left: 10px;
+	width: 100px;
+}
+#Day 
+{
+	float: left;
+	margin-left: 10px;
+	margin-right: 2px;
+}
+#Month,#Year 
+{
+	float: left;
+	margin-left: 0;
+	margin-right: 2px;
+}
+#clable:after
+{
+	content: " * ";
+	color: red;
+}
+#SUBMIT
+{
+	float: right;
+	margin-right: 18px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 17px;
+	border: 1.5px solid black;
+	border-radius: 15px; 
+	color: black;
+}
+#SUBMIT:hover
+{
+	background-color: gray;
+}
+
+footer
+{
+	margin-top: 20px;
+	margin-left: 550px;
+	color: white;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}

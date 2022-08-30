@@ -1,0 +1,60 @@
+body 
+{
+	background: url(../img/backg.jpg)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin: auto;
+}
+
+
+ h2
+ {
+ 	font-size: 25px;
+ 	font-family: Benard MT;
+ 	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+	width: 100%;
+ }
+.error 
+{
+	float: left;
+	width: 100%;
+	margin-top: 40px;
+}
+ img
+ {
+ 	float: left;
+ 	width: 30%;
+ 	height: 400px;
+ 	margin-left: 35%;
+ }
+ a
+ {
+ 	width: 100%;
+ 	float: left;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ }
+  a:hover
+  {
+  	font-size: 20px;
+  	
+  }
+  footer
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0;
+	line-height: 25px;
+	margin-top: 55px;
+	
+}

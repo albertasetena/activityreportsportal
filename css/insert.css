@@ -1,0 +1,64 @@
+body 
+{
+	background: url(../img/backg.jpg)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.wrap
+{
+	width: 100%;
+	margin: auto;
+	max-height: 800px;
+}
+.dataentered
+{
+	float: left;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 30px;
+	height: 400px;
+}
+ a
+ {
+	font-size: 35px;
+	color: khaki;
+	float: left;
+	width: 100%;
+	font-family: arial;
+	text-align: center;
+	
+ }
+ a:hover 
+ {
+ 	color: white;
+ 	font-size: 36px;
+ }
+ p
+ {
+ 	font-size: 25px;
+ 	font-family: Adlery;
+ 	float: left;
+ 	width: 100%;
+ 	margin-bottom: 0;
+ }
+ img
+ {
+ 	float: left;
+ 	width: 40%;
+ 	height: 380px;
+ 	margin-left: 33%;
+ }
+ footer
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0;
+	line-height: 25px;
+	margin-top: 55px;
+	
+}

@@ -1,0 +1,12 @@
+fieldset
+{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+legend
+{
+    margin: auto;
+    widows: 500px;
+    color: #000;
+}
